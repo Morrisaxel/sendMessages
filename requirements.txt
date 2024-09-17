@@ -1,0 +1,7 @@
+tkinter
+pandas
+openpyxl
+xlrd
+pywhatkit
+pyautogui
+keyboard
