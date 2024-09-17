@@ -36,7 +36,7 @@ def cargar_archivo():
             
             # Comprobamos que las columnas necesarias existan
             print(excel_data.columns)
-            required_columns = ['CLIENTE', 'TELÉFONO', 'LINEA OFERTADA 1RA/ MONTO TOTAL LINEA 2DA/ RAPIDITO']
+            required_columns = ['cliente', 'telefono', 'oferta']
             if all(col in excel_data.columns for col in required_columns):
                 # Filtramos solo las columnas necesarias y las renombramos
                 excel_data = excel_data[required_columns]
